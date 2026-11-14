@@ -1,5 +1,5 @@
 {
-	"name": "pi-ide-context",
+	"name": "loompi-ide-context",
 	"version": "0.6.4",
 	"description": "/ide for pi — connect Neovim, VS Code, Obsidian or a JetBrains IDE and inject the file, cursor and selection into every prompt",
 	"keywords": [
@@ -21,14 +21,14 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Andy8647/pi-ide-context.git"
+		"url": "git+https://github.com/Mahjong404/pi-ide-context.git"
 	},
-	"homepage": "https://github.com/Andy8647/pi-ide-context#readme",
+	"homepage": "https://github.com/Mahjong404/pi-ide-context#readme",
 	"pi": {
 		"extensions": [
 			"./src/index.ts"
 		],
-		"image": "https://raw.githubusercontent.com/Andy8647/pi-ide-context/main/assets/cover.png"
+		"image": "https://raw.githubusercontent.com/Mahjong404/pi-ide-context/main/assets/cover.png"
 	},
 	"files": [
 		"src/",

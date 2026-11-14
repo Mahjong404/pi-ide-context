@@ -6,8 +6,9 @@
 
 > `/ide` for pi — like Claude Code's IDE integration, but for Neovim, VS Code, Obsidian and JetBrains IDEs.
 
-[![npm version](https://img.shields.io/npm/v/pi-ide-context)](https://www.npmjs.com/package/pi-ide-context)
-[![GitHub](https://img.shields.io/badge/github-Andy8647/pi--ide--context-blue)](https://github.com/Andy8647/pi-ide-context)
+[![GitHub](https://img.shields.io/badge/github-Mahjong404/pi--ide--context-blue)](https://github.com/Mahjong404/pi-ide-context)
+
+The maintained public fork, `Mahjong404/pi-ide-context`, is based on [Andy8647/pi-ide-context](https://github.com/Andy8647/pi-ide-context) and is distributed under the selected npm name `loompi-ide-context`. npm publication is pending. It retains the upstream editor client identities and configuration format. See [fork differences](docs/fork-differences.md) for current compatibility details.
 
 Select text in Neovim (or VS Code / Obsidian / WebStorm), switch to pi — pi already knows which
 file you're in, where your cursor is, and what you selected. No copy-paste. No
@@ -20,16 +21,20 @@ file you're in, where your cursor is, and what you selected. No copy-paste. No
 ### Pi extension
 
 ```bash
-pi install npm:pi-ide-context
+pi install git:github.com/Mahjong404/pi-ide-context
 ```
 
-Then `/reload` in pi.
+After the first npm release, install with:
+
+```bash
+pi install npm:loompi-ide-context
+```
 
 ### Neovim plugin (lazy.nvim)
 
 ```lua
 {
-  "Andy8647/pi-ide-context",
+  "Mahjong404/pi-ide-context",
   lazy = false,
 }
 ```
