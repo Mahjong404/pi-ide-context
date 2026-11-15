@@ -8,7 +8,7 @@
 
 [![GitHub](https://img.shields.io/badge/github-Mahjong404/pi--ide--context-blue)](https://github.com/Mahjong404/pi-ide-context)
 
-The maintained public fork, `Mahjong404/pi-ide-context`, is based on [Andy8647/pi-ide-context](https://github.com/Andy8647/pi-ide-context) and is distributed under the selected npm name `loompi-ide-context`. npm publication is pending. It retains the upstream editor client identities and configuration format. See [fork differences](docs/fork-differences.md) for current compatibility details.
+The maintained public fork, `Mahjong404/pi-ide-context`, is based on [Andy8647/pi-ide-context](https://github.com/Andy8647/pi-ide-context) and is distributed under the selected npm name `pi-loom-ide-context`. npm publication is pending. It retains the upstream editor client identities and configuration format. See [fork differences](docs/fork-differences.md) for current compatibility details.
 
 Select text in Neovim (or VS Code / Obsidian / WebStorm), switch to pi — pi already knows which
 file you're in, where your cursor is, and what you selected. No copy-paste. No
@@ -27,7 +27,7 @@ pi install git:github.com/Mahjong404/pi-ide-context
 After the first npm release, install with:
 
 ```bash
-pi install npm:loompi-ide-context
+pi install npm:pi-loom-ide-context
 ```
 
 ### Neovim plugin (lazy.nvim)

@@ -1,5 +1,5 @@
 {
-	"name": "loompi-ide-context",
+	"name": "pi-loom-ide-context",
 	"version": "0.6.4",
 	"description": "/ide for pi — connect Neovim, VS Code, Obsidian or a JetBrains IDE and inject the file, cursor and selection into every prompt",
 	"keywords": [
